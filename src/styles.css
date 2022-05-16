@@ -1,0 +1,73 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
+body {
+  background-color: rgb(24, 59, 105);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container h3 {
+  font-size: 28px;
+  font-weight: 600;
+}
+.container {
+  text-align: center;
+  border-radius: 30px;
+  border: 2px solid rgb(93, 14, 14);
+  background-color: rgb(101, 177, 187);
+  width: 60%;
+  margin: 10% auto;
+  height: 60vh;
+  padding-bottom: 30px;
+  position: relative;
+}
+.container #input {
+  width: 80%;
+  height: 40px;
+  margin-bottom: 50px;
+  border: 1px solid rgb(26, 25, 25);
+  border-radius: 30px;
+  font-size: 25px;
+  padding-left: 20px;
+}
+#last {
+  font-size: 25px;
+}
+.container #submit:hover {
+  background-color: rgb(27, 39, 93);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.container #submit {
+  background-color: rgb(235, 235, 245);
+  color: rgb(0, 0, 0);
+  padding: 15px 30px;
+  font-size: 1.3em;
+  font-weight: 200;
+  border-radius: 10px;
+  border: 2px solid rgb(250, 0, 0);
+  margin-bottom: 20px;
+}
+.container #errorMsg {
+  background-color: rgb(248, 9, 9);
+  color: white;
+  line-height: 30px;
+  font-size: 20px;
+  width: 60%;
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid black;
+  margin: auto;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+}
+.container #display {
+  font-size: 30px;
+  color: rgb(14, 14, 187);
+}
